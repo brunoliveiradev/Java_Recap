@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class DesafioArray {
 
     public static void main(String[] args) {
-        Scanner reader = new Scanner(System.in);
+        Scanner reader = new Scanner(System.in).useLocale(Locale.ROOT);
 
         System.out.println("Digite a quantidade de alunos que será calculado a média de notas: ");
         int sizeArray = reader.nextInt();
@@ -15,7 +15,7 @@ public class DesafioArray {
         System.out.printf("Digite as %s notas de alunos a serem calculadas média: %n", sizeArray);
 
         for (int i = 0; i < sizeArray; i++) {
-            notas[i] = reader.useLocale(Locale.ROOT).nextDouble();
+            notas[i] = reader.nextDouble();
         }
         reader.close();
 
