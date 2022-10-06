@@ -36,5 +36,14 @@ public class Usuario {
         result = 31 * result + (getEmail() != null ? getEmail().hashCode() : 0);
         return result;
     }
+
+    @Override
+    public String toString() {
+        final StringBuffer sb = new StringBuffer("Usuario { ");
+        sb.append("username='").append(username).append('\'');
+        sb.append(", email='").append(email).append('\'');
+        sb.append('}');
+        return sb.toString();
+    }
 }
 
