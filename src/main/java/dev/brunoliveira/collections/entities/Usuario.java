@@ -1,4 +1,4 @@
-package dev.brunoliveira.entities;
+package dev.brunoliveira.collections.entities;
 
 public class Usuario {
 
@@ -39,7 +39,7 @@ public class Usuario {
 
     @Override
     public String toString() {
-        final StringBuffer sb = new StringBuffer("Usuario { ");
+        final StringBuilder sb = new StringBuilder("Usuario { ");
         sb.append("username='").append(username).append('\'');
         sb.append(", email='").append(email).append('\'');
         sb.append('}');

@@ -1,4 +1,4 @@
-package dev.brunoliveira.collecoes.sets;
+package dev.brunoliveira.collections.sets;
 
 import java.util.HashSet;
 import java.util.Set;

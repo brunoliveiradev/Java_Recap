@@ -1,4 +1,4 @@
-package dev.brunoliveira.collecoes.sets;
+package dev.brunoliveira.collections.sets;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -7,7 +7,7 @@ public class ConjuntosHeterogeneos {
 
     public static void main(String[] args) {
 
-        Set conjunto = new HashSet<>();
+        Set<Object> conjunto = new HashSet<>();
 
         conjunto.add(1.2);
         conjunto.add(true);

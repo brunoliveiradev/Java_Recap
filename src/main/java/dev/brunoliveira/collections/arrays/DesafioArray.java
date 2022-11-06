@@ -1,4 +1,4 @@
-package dev.brunoliveira.arrays;
+package dev.brunoliveira.collections.arrays;
 
 import java.util.Locale;
 import java.util.Scanner;

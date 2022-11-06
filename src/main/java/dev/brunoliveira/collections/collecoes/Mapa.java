@@ -1,4 +1,4 @@
-package dev.brunoliveira.collecoes;
+package dev.brunoliveira.collections.collecoes;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,7 +9,7 @@ public class Mapa {
 
         Map<Long, String> usuarios = new HashMap<>();
         usuarios.put(1L, "Roberto");
-        usuarios.put(1L, "Ricardo");
+        usuarios.put(4L, "Ricardo");
         usuarios.put(2L, "Romario");
         usuarios.put(3L, "Ronaldo");
 

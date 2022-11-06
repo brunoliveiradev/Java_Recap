@@ -1,6 +1,6 @@
-package dev.brunoliveira.collecoes.list;
+package dev.brunoliveira.collections.list;
 
-import dev.brunoliveira.entities.Usuario;
+import dev.brunoliveira.collections.entities.Usuario;
 
 import java.util.ArrayList;
 

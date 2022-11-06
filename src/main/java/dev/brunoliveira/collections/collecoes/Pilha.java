@@ -1,4 +1,4 @@
-package dev.brunoliveira.collecoes;
+package dev.brunoliveira.collections.collecoes;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

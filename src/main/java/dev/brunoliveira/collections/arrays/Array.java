@@ -1,4 +1,4 @@
-package dev.brunoliveira.arrays;
+package dev.brunoliveira.collections.arrays;
 
 import java.util.Arrays;
 
@@ -7,7 +7,6 @@ public class Array {
     public static void main(String[] args) {
         double[] notas = new double[4];
         System.out.println(Arrays.toString(notas));
-        //double[] notas = { 7.9, 8, 5.5, 10};
         notas[0] = 7.9;
         notas[1] = 8;
         notas[2] = 6.7;

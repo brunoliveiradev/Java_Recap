@@ -1,4 +1,4 @@
-package dev.brunoliveira.arrays;
+package dev.brunoliveira.collections.arrays;
 
 public class ForEach {
 
