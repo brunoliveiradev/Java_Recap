@@ -14,6 +14,7 @@ public class UUIDType5 {
         System.out.println(test);
         System.out.println(test.version());
     }
+
     private static final Charset UTF8 = StandardCharsets.UTF_8;
     public static final UUID NAMESPACE_DNS = UUID.fromString("6ba7b810-9dad-11d1-80b4-00c04fd430c8");
     public static final UUID NAMESPACE_URL = UUID.fromString("6ba7b811-9dad-11d1-80b4-00c04fd430c8");
