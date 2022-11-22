@@ -25,6 +25,14 @@ public class WaterTank {
         double sum = x + y + z;
         System.out.println("Operações matematicas entre short, float e double viram double: " + sum);
 
+        char A = 65;
+        char B = (char) (A + 1);
+        boolean c = (B++ == 'C');
+        System.out.println(c);
 
+        int ax = 65;
+        int ay = 66;
+        boolean be = (ax++ < ay);
+        System.out.println(be + " BE");
     }
 }
