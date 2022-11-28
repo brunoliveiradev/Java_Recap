@@ -34,5 +34,15 @@ public class WaterTank {
         int ay = 66;
         boolean be = (ax++ < ay);
         System.out.println(be + " BE");
+
+        StringBuilder sb = new StringBuilder("Programming");
+        System.out.println(sb.length());
+        System.out.println(sb);
+        sb.insert(7, "-");
+        sb.insert(2, 2);
+        System.out.println(sb);
+        System.out.println(sb.length());
+
+
     }
 }
