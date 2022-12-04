@@ -18,7 +18,15 @@ public class Array {
         for (double nota : notas) {
             total += nota;
         }
-        System.out.println(total/ notas.length);
+        System.out.println(total / notas.length);
+
+        int[] dates = {5, 10, 2};
+        Arrays.sort(dates);
+
+        for (int i = 0; i < dates.length; i++) {
+            System.out.print(dates[i] + " ");
+        }
+        System.out.println("\n" + Arrays.toString(dates));
     }
 
 }
