@@ -23,10 +23,25 @@ public class Array {
         int[] dates = {5, 10, 2};
         Arrays.sort(dates);
 
-        for (int i = 0; i < dates.length; i++) {
-            System.out.print(dates[i] + " ");
+        for (int date : dates) {
+            System.out.print(date + " ");
         }
         System.out.println("\n" + Arrays.toString(dates));
+
+
+        int[] sortedNumbers = {1, 3, 5, 7, 11};
+        System.out.println(Arrays.toString(sortedNumbers));
+        System.out.println("Arrays classificados, onde aparecer negativo é pq nao achou ou é a referencia de onde deveria inserir");
+        System.out.println(Arrays.binarySearch(sortedNumbers, 3));
+        System.out.println(Arrays.binarySearch(sortedNumbers, 2));
+        System.out.println(Arrays.binarySearch(sortedNumbers, 5));
+        System.out.println(Arrays.binarySearch(sortedNumbers, 4));
+        System.out.println(Arrays.binarySearch(sortedNumbers, 11));
+
+        int[] notSortedNumbers = {5, 4, 10, 8, 6};
+        System.out.println("Resultado imprevisivel pois array nao esta classificado");
+        System.out.println(Arrays.binarySearch(notSortedNumbers, 5));
+        System.out.println(Arrays.binarySearch(notSortedNumbers, 8));
     }
 
 }
